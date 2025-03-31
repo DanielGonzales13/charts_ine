@@ -1,0 +1,9 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_BASE_PATH": ""
+    }
+  }
+}
+
